@@ -1,11 +1,13 @@
 {
-  "name": "http-server",
-  "version": "0.12.3",
-  "description": "A simple zero-configuration command-line http server",
+  "name": "@s1mple/js-http-server",
+  "author": "s1mple",
+  "repository": "git://github.com/s1mple/js-http-server.git",
+  "license": "MIT",
+  "version": "0.12.3.1",
+  "description": "A simple zero-configuration command-line http server with support for extension-specific Content-Types",
   "main": "./lib/http-server",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/http-party/http-server.git"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "cli",
@@ -100,7 +102,6 @@
   "bugs": {
     "url": "https://github.com/http-party/http-server/issues"
   },
-  "license": "MIT",
   "preferGlobal": true,
   "bin": {
     "http-server": "./bin/http-server",
